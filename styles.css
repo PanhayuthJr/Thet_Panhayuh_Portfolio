@@ -635,12 +635,16 @@ footer {
     .about-img {
         display: flex;
         justify-content: center;
+        align-items: center;
         margin-bottom: 2rem;
+        width: 100%;
     }
 
     .about-img img {
         max-width: 300px;
         width: 100%;
+        margin: 0 auto;
+        display: block;
     }
 
     .about-info {
