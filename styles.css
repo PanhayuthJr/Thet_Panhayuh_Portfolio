@@ -629,6 +629,28 @@ footer {
     .contact-content {
         grid-template-columns: 1fr;
         padding: 20px;
+        text-align: center;
+    }
+
+    .about-img {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    .about-img img {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .about-info {
+        justify-items: center;
+    }
+
+    .info-item {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
     }
 
     .skills-content {
